@@ -1,0 +1,339 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+h1 {
+    display: none;
+}
+header {
+    background-color: #303030;
+    height: 738px;
+    display: flex;
+}
+.headleft {
+    display: flex;
+    background: url('../photo/Imagehead.png');
+    width: 600px;
+}
+.logo {
+     display: flex;
+     margin-left: 50px;
+     padding-top: 35px;
+}
+.headright {
+    background: url('../photo/Designhead.png');
+    width: 65%;
+}
+.menu ul{
+     display: flex;
+     justify-content: space-around;
+     width: 400px;
+     margin-left: 40px;
+     color: white;
+     list-style: none;
+     gap: 55px;
+     margin-top: 20px;
+}
+.menu ul a {
+     text-decoration: none;
+     color: white;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 28px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.lefthead {
+    margin-left: 180px;
+    margin-top: 130px;
+}
+.lefthead h2 {
+    font-family: 'Pacifico', cursive;
+
+    color: #ffc300;
+    font-size: 70px;
+}
+.lefthead p {
+    color: white;
+    width: 650px;
+    font-size: 29px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lefthead button {
+    padding: 10px 50px;
+    background-color: #ffc300;
+    color: black;
+    font-size: 14px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.best-seller {
+    height: 738px;
+    margin-bottom: 200px;
+}
+.bs-h {
+    font-family: 'Pacifico', cursive;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+.bs-p {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 22px;
+    color: rgb(81, 81, 81);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bs-p p {
+    width: 1000px;
+    text-align: center;
+}
+.bs-blocks {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 120px;
+}
+.bs-block {
+    text-align: center;
+}
+.bs-block h2 {
+    font-family: 'Pacifico', cursive;
+}
+.bs-block div {
+    width: 300px;
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.orientaltaste {
+    height: 500px;
+    background: #ffffff;
+}
+.ot-back {
+    background: url('../photo/Designverhnew.png');
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+.ot-photo img {
+    height: 450px;
+    margin-left: 70px;
+}
+.ot-another {
+    margin-left: 200px;
+}
+.ot-another h2 {
+    font-family: 'Pacifico', cursive;
+    color: #ffc300;
+    font-size: 70px;
+}
+.ot-another p {
+    color: white;
+    width: 650px;
+    font-size: 29px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ot-another button {
+    padding: 15px 70px;
+    background-color: #ffc300;
+    color: black;
+    font-size: 14px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.statistic {
+    height: 800px;
+    background: #303030;
+}
+.statistic2 {
+    background: url('../photo/Design2.png');
+    height: 800px;
+}
+.s-h {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.s-h h2 {
+    font-family: 'Pacifico', cursive;
+    color: #ffc300;
+    font-size: 70px;
+}
+.s-p {
+    display: flex;
+    justify-content: center;
+}
+.s-p p {
+    color: white;
+    width: 800px;
+    font-size: 23px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.s-photo {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.ott-back {
+    background: url('../photo/Designniztestnew.png');
+    display: flex;
+    height: 942px;
+    width: 100%;
+    padding-top: 200px;
+}
+.orientaltastee {
+    height: 848px;
+    margin-bottom: 150px;
+    background-color: #ffffff;
+}
+.lenorafields {
+    height: 795px;
+    background: url('../photo/Imagecarbonara2new.png');
+}
+.lf-p {
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+}
+.lf-p p {
+    font-size: 40px;
+    width: 950px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lf-b {
+    display: flex;
+    justify-content: center;
+}
+.lf-b b {
+    font-size: 50px;
+    width: 950px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+.subscribe {
+    height: 750px;
+    background-color: #ffffff;
+}
+.sub {
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    height: 725px;
+    background: url('../photo/Designupfut.png');
+}
+.sub-h {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.sub-h h2 {
+    font-family: 'Pacifico', cursive;
+    color: #000000;
+    font-size: 70px;
+}
+.sub-p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.sub-p div {
+    color: rgb(0, 0, 0);
+    width: 800px;
+    font-size: 27px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.but {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.email-input {
+    flex: 1;
+    padding: 15px 15px;
+    border: none;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+}
+.subscribe-button {
+    padding: 15px 20px;
+    background-color: #ffcc00;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+} 
+.subscribe-button:hover {
+    background-color: #e6b800;
+}
+
+footer {
+    height: 700px;
+    background-color:#303030;
+    color:#ffffff;
+}
+.footer-content {
+    height: 300px;
+    padding-top: 200px;
+    display: flex;
+}
+.footer-content h2 {
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footerleft div {
+    color:#cccaca;
+    width: 400px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footerleft ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.footerleft {
+    margin-left: 150px;
+    margin-right: 170px;
+}
+.footer-links {
+    height: 250px;
+    margin-right: 35px;
+}
+.footer-links ul li {
+    padding-bottom: 10px;
+}
+.footer-links ul li a {
+    color: #cccaca;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer-links ul {
+    list-style: none;
+}
+.dop {
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 40px;
+    margin-top: 20px;
+}
